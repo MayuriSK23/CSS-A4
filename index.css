@@ -1,0 +1,186 @@
+.container {
+    background: linear-gradient(to right, red, green, yellowgreen, yellow);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.navigate {
+    margin-top: 15px;
+    margin-left: 15%;
+    background: lightseagreen;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-weight: bold;
+    height: 90px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainContainer {
+    height: 210px;
+    background: palegreen;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.container1 p {
+    background: aqua;
+    border: 2px solid green;
+    width: 350px;
+    height: 90px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.container2 p {
+    background: aqua;
+    border: 2px solid green;
+    width: 360px;
+    height: 90px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-left: 420px;
+    text-align: center;
+    margin-top: -16px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.container3 {
+    background: linear-gradient(to right, red, orange, yellow, orange, red);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 20px;
+
+}
+
+.container4 {
+    background: radial-gradient(blue, aqua, green);
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    background: yellow;
+    border: 1px solid brown;
+    border-radius: 15px;
+    align-items: center;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    text-decoration: underline;
+}
+
+.container5 {
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 1250px;
+    height: auto;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+
+.content1 {
+    background: red;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 3px;
+    grid-column: 1/5;
+
+}
+
+.content2 {
+    height: 70px;
+    width: 368px;
+    background: lightgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.content3 {
+    height: 70px;
+    width: 368px;
+    background: lightblue;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content4 {
+    height: 70px;
+    width: 368px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+
+.content5 {
+    height: 185px;
+    width: 130px;
+    background: black;
+    color: white;
+    text-decoration: underline;
+    grid-column-start: 4;
+    grid-row: 2/8;
+}
+
+.content6 {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    grid-column: 1/4;
+    padding: 5px;
+}
+
+.content7 {
+    background: aqua;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    height: 25px;
+    grid-column: 1/5;
+
+}
